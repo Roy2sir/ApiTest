@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="186" it="0" lt="184" ct="103" ts="1536809509819" s="true" lb="行政区划-获得省份" rc="200" rm="" tn="收货人-根据ID更新数据 1-1" dt="text" de="UTF-8" by="4418" sby="216" sc="1" ec="0" ng="1" na="1" hn="SC-201803070953">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Thu, 13 Sep 2018 03:31:48 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 0
+Content-Type: text/plain; charset=ISO-8859-1
+Host: 192.168.0.13:30000
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_25)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;msg&quot;:&quot;成功&quot;,&quot;flag&quot;:true,&quot;data&quot;:[{&quot;adcode&quot;:110000,&quot;citycode&quot;:&quot;010&quot;,&quot;name&quot;:&quot;北京市&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;116.405285&quot;,&quot;lat&quot;:&quot;39.904989&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:120000,&quot;citycode&quot;:&quot;022&quot;,&quot;name&quot;:&quot;天津市&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;117.190182&quot;,&quot;lat&quot;:&quot;39.125596&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:130000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;河北省&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;114.502461&quot;,&quot;lat&quot;:&quot;38.045474&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:140000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;山西省&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;112.549248&quot;,&quot;lat&quot;:&quot;37.857014&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:150000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;内蒙古自治区&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;111.670801&quot;,&quot;lat&quot;:&quot;40.818311&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:210000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;辽宁省&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;123.429096&quot;,&quot;lat&quot;:&quot;41.796767&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:220000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;吉林省&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;125.3245&quot;,&quot;lat&quot;:&quot;43.886841&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:230000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;黑龙江省&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;126.642464&quot;,&quot;lat&quot;:&quot;45.756967&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:310000,&quot;citycode&quot;:&quot;021&quot;,&quot;name&quot;:&quot;上海市&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;121.472644&quot;,&quot;lat&quot;:&quot;31.231706&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:320000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;江苏省&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;118.767413&quot;,&quot;lat&quot;:&quot;32.041544&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:330000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;浙江省&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;120.153576&quot;,&quot;lat&quot;:&quot;30.287459&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:340000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;安徽省&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;117.283042&quot;,&quot;lat&quot;:&quot;31.86119&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:350000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;福建省&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;119.306239&quot;,&quot;lat&quot;:&quot;26.075302&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:360000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;江西省&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;115.892151&quot;,&quot;lat&quot;:&quot;28.676493&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:370000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;山东省&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;117.000923&quot;,&quot;lat&quot;:&quot;36.675807&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:410000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;河南省&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;113.665412&quot;,&quot;lat&quot;:&quot;34.757975&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:420000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;湖北省&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;114.298572&quot;,&quot;lat&quot;:&quot;30.584355&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:430000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;湖南省&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;112.982279&quot;,&quot;lat&quot;:&quot;28.19409&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:440000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;广东省&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;113.280637&quot;,&quot;lat&quot;:&quot;23.125178&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:450000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;广西壮族自治区&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;108.320004&quot;,&quot;lat&quot;:&quot;22.82402&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:460000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;海南省&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;110.33119&quot;,&quot;lat&quot;:&quot;20.031971&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:500000,&quot;citycode&quot;:&quot;023&quot;,&quot;name&quot;:&quot;重庆市&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;106.504962&quot;,&quot;lat&quot;:&quot;29.533155&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:510000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;四川省&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;104.065735&quot;,&quot;lat&quot;:&quot;30.659462&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:520000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;贵州省&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;106.713478&quot;,&quot;lat&quot;:&quot;26.578343&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:530000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;云南省&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;102.712251&quot;,&quot;lat&quot;:&quot;25.040609&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:540000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;西藏自治区&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;91.132212&quot;,&quot;lat&quot;:&quot;29.660361&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:610000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;陕西省&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;108.948024&quot;,&quot;lat&quot;:&quot;34.263161&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:620000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;甘肃省&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;103.823557&quot;,&quot;lat&quot;:&quot;36.058039&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:630000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;青海省&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;101.778916&quot;,&quot;lat&quot;:&quot;36.623178&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:640000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;宁夏回族自治区&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;106.278179&quot;,&quot;lat&quot;:&quot;38.46637&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:650000,&quot;citycode&quot;:&quot;[]&quot;,&quot;name&quot;:&quot;新疆维吾尔自治区&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;87.617733&quot;,&quot;lat&quot;:&quot;43.792818&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:710000,&quot;citycode&quot;:&quot;1886&quot;,&quot;name&quot;:&quot;台湾省&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;121.509062&quot;,&quot;lat&quot;:&quot;25.044332&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:810000,&quot;citycode&quot;:&quot;1852&quot;,&quot;name&quot;:&quot;香港特别行政区&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;114.173355&quot;,&quot;lat&quot;:&quot;22.320048&quot;},&quot;level&quot;:&quot;province&quot;},{&quot;adcode&quot;:820000,&quot;citycode&quot;:&quot;1853&quot;,&quot;name&quot;:&quot;澳门特别行政区&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;113.54909&quot;,&quot;lat&quot;:&quot;22.198951&quot;},&quot;level&quot;:&quot;province&quot;}]}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.0.13:30000/ssc-user/district/listProvince</java.net.URL>
+</httpSample>
+<httpSample t="30" it="0" lt="30" ct="0" ts="1536809510028" s="true" lb="行政区划-获得城市" rc="200" rm="" tn="收货人-根据ID更新数据 1-1" dt="text" de="UTF-8" by="432" sby="165" sc="1" ec="0" ng="1" na="1" hn="SC-201803070953">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Thu, 13 Sep 2018 03:31:48 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: 192.168.0.13:30000
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_25)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;msg&quot;:&quot;成功&quot;,&quot;flag&quot;:true,&quot;data&quot;:[{&quot;adcode&quot;:500100,&quot;citycode&quot;:&quot;023&quot;,&quot;name&quot;:&quot;重庆城区&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;106.504962&quot;,&quot;lat&quot;:&quot;29.533155&quot;},&quot;level&quot;:&quot;city&quot;},{&quot;adcode&quot;:500200,&quot;citycode&quot;:&quot;023&quot;,&quot;name&quot;:&quot;重庆郊县&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;108.170255&quot;,&quot;lat&quot;:&quot;29.291965&quot;},&quot;level&quot;:&quot;city&quot;}]}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.0.13:30000/ssc-user/district/listCity?provinceId=500000</java.net.URL>
+</httpSample>
+<httpSample t="290" it="0" lt="290" ct="0" ts="1536809510060" s="true" lb="行政区划-行政区域查询" rc="200" rm="" tn="收货人-根据ID更新数据 1-1" dt="text" de="UTF-8" by="432" sby="179" sc="1" ec="0" ng="1" na="1" hn="SC-201803070953">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Thu, 13 Sep 2018 03:31:48 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: 192.168.0.13:30000
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_25)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;msg&quot;:&quot;成功&quot;,&quot;flag&quot;:true,&quot;data&quot;:[{&quot;adcode&quot;:500100,&quot;citycode&quot;:&quot;023&quot;,&quot;name&quot;:&quot;重庆城区&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;106.504962&quot;,&quot;lat&quot;:&quot;29.533155&quot;},&quot;level&quot;:&quot;city&quot;},{&quot;adcode&quot;:500200,&quot;citycode&quot;:&quot;023&quot;,&quot;name&quot;:&quot;重庆郊县&quot;,&quot;location&quot;:{&quot;lng&quot;:&quot;108.170255&quot;,&quot;lat&quot;:&quot;29.291965&quot;},&quot;level&quot;:&quot;city&quot;}]}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.0.13:30000/ssc-user/district/listDistrict?keywords=重庆</java.net.URL>
+</httpSample>
+<httpSample t="158" it="0" lt="158" ct="0" ts="1536809510356" s="true" lb="收货人-插入数据" rc="200" rm="" tn="收货人-根据ID更新数据 1-1" dt="text" de="UTF-8" by="188" sby="484" sc="1" ec="0" ng="1" na="1" hn="SC-201803070953">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Thu, 13 Sep 2018 03:31:48 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 274
+Host: 192.168.0.13:30000
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_25)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;msg&quot;:&quot;成功&quot;,&quot;flag&quot;:true,&quot;data&quot;:48}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">user_id=1&amp;name=%E9%80%8D%E9%81%A5&amp;cellphone=15223650314&amp;province=%E9%87%8D%E5%BA%86&amp;city=%E9%87%8D%E5%BA%86&amp;area=%E6%B2%99%E5%9D%AA%E5%9D%9D&amp;area_location=%7B%22lat%22%3A+30.8079%2C+%22lng%22%3A+108.40873%7D&amp;consignee_detailed_address=8-8&amp;consignee_status=%E6%AD%A3%E5%B8%B8</queryString>
+  <java.net.URL>http://192.168.0.13:30000/ssc-user/consignee</java.net.URL>
+</httpSample>
+<httpSample t="21" it="0" lt="21" ct="0" ts="1536809510516" s="true" lb="收货人-分页" rc="200" rm="" tn="收货人-根据ID更新数据 1-1" dt="text" de="UTF-8" by="7853" sby="170" sc="1" ec="0" ng="1" na="1" hn="SC-201803070953">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Thu, 13 Sep 2018 03:31:48 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: 192.168.0.13:30000
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_25)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;msg&quot;:&quot;成功&quot;,&quot;flag&quot;:true,&quot;data&quot;:[{&quot;id&quot;:11,&quot;user_id&quot;:1,&quot;name&quot;:&quot;张三&quot;,&quot;cellphone&quot;:&quot;18523146311&quot;,&quot;province&quot;:&quot;重庆&quot;,&quot;city&quot;:&quot;重庆&quot;,&quot;area&quot;:&quot;渝北&quot;,&quot;area_location&quot;:&quot;{\&quot;lat\&quot;: 30.8079, \&quot;lng\&quot;: 108.40873}&quot;,&quot;consignee_detailed_address&quot;:&quot;5-1&quot;,&quot;consignee_status&quot;:&quot;正常&quot;,&quot;sex&quot;:null,&quot;postalcode&quot;:null,&quot;consignee_location&quot;:null,&quot;create_time&quot;:&quot;2018-09-03T02:55:50.000+0000&quot;,&quot;update_time&quot;:&quot;2018-09-03T02:55:50.000+0000&quot;},{&quot;id&quot;:12,&quot;user_id&quot;:1,&quot;name&quot;:&quot;张三&quot;,&quot;cellphone&quot;:&quot;18523146311&quot;,&quot;province&quot;:&quot;重庆&quot;,&quot;city&quot;:&quot;重庆&quot;,&quot;area&quot;:&quot;渝北&quot;,&quot;area_location&quot;:&quot;{\&quot;lat\&quot;: 30.8079, \&quot;lng\&quot;: 108.40873}&quot;,&quot;consignee_detailed_address&quot;:&quot;5-1&quot;,&quot;consignee_status&quot;:&quot;正常&quot;,&quot;sex&quot;:null,&quot;postalcode&quot;:null,&quot;consignee_location&quot;:null,&quot;create_time&quot;:&quot;2018-09-03T02:55:54.000+0000&quot;,&quot;update_time&quot;:&quot;2018-09-03T02:55:54.000+0000&quot;},{&quot;id&quot;:13,&quot;user_id&quot;:1,&quot;name&quot;:&quot;逍遥&quot;,&quot;cellphone&quot;:&quot;15223650314&quot;,&quot;province&quot;:&quot;重庆&quot;,&quot;city&quot;:&quot;重庆&quot;,&quot;area&quot;:&quot;沙坪坝&quot;,&quot;area_location&quot;:&quot;{\&quot;lat\&quot;: 30.8079, \&quot;lng\&quot;: 108.40873}&quot;,&quot;consignee_detailed_address&quot;:&quot;8-8&quot;,&quot;consignee_status&quot;:&quot;正常&quot;,&quot;sex&quot;:null,&quot;postalcode&quot;:null,&quot;consignee_location&quot;:null,&quot;create_time&quot;:&quot;2018-09-03T02:56:02.000+0000&quot;,&quot;update_time&quot;:&quot;2018-09-03T02:56:02.000+0000&quot;},{&quot;id&quot;:14,&quot;user_id&quot;:1,&quot;name&quot;:&quot;逍遥&quot;,&quot;cellphone&quot;:&quot;15223650314&quot;,&quot;province&quot;:&quot;重庆&quot;,&quot;city&quot;:&quot;重庆&quot;,&quot;area&quot;:&quot;沙坪坝&quot;,&quot;area_location&quot;:&quot;{\&quot;lat\&quot;: 30.8079, \&quot;lng\&quot;: 108.40873}&quot;,&quot;consignee_detailed_address&quot;:&quot;8-8&quot;,&quot;consignee_status&quot;:&quot;正常&quot;,&quot;sex&quot;:null,&quot;postalcode&quot;:null,&quot;consignee_location&quot;:null,&quot;create_time&quot;:&quot;2018-09-03T02:56:28.000+0000&quot;,&quot;update_time&quot;:&quot;2018-09-03T02:56:28.000+0000&quot;},{&quot;id&quot;:15,&quot;user_id&quot;:1,&quot;name&quot;:&quot;张三&quot;,&quot;cellphone&quot;:&quot;18523146311&quot;,&quot;province&quot;:&quot;重庆&quot;,&quot;city&quot;:&quot;重庆&quot;,&quot;area&quot;:&quot;渝北&quot;,&quot;area_location&quot;:&quot;{\&quot;lat\&quot;: 30.8079, \&quot;lng\&quot;: 108.40873}&quot;,&quot;consignee_detailed_address&quot;:&quot;5-1&quot;,&quot;consignee_status&quot;:&quot;正常&quot;,&quot;sex&quot;:null,&quot;postalcode&quot;:null,&quot;consignee_location&quot;:null,&quot;create_time&quot;:&quot;2018-09-03T02:57:43.000+0000&quot;,&quot;update_time&quot;:&quot;2018-09-03T02:57:43.000+0000&quot;},{&quot;id&quot;:16,&quot;user_id&quot;:1,&quot;name&quot;:&quot;张三&quot;,&quot;cellphone&quot;:&quot;18523146311&quot;,&quot;province&quot;:&quot;重庆&quot;,&quot;city&quot;:&quot;重庆&quot;,&quot;area&quot;:&quot;渝北&quot;,&quot;area_location&quot;:&quot;{\&quot;lat\&quot;: 30.8079, \&quot;lng\&quot;: 108.40873}&quot;,&quot;consignee_detailed_address&quot;:&quot;5-1&quot;,&quot;consignee_status&quot;:&quot;正常&quot;,&quot;sex&quot;:null,&quot;postalcode&quot;:null,&quot;consignee_location&quot;:null,&quot;create_time&quot;:&quot;2018-09-03T02:57:46.000+0000&quot;,&quot;update_time&quot;:&quot;2018-09-03T02:57:46.000+0000&quot;},{&quot;id&quot;:17,&quot;user_id&quot;:1,&quot;name&quot;:&quot;张三&quot;,&quot;cellphone&quot;:&quot;18523146311&quot;,&quot;province&quot;:&quot;重庆&quot;,&quot;city&quot;:&quot;重庆&quot;,&quot;area&quot;:&quot;渝北&quot;,&quot;area_location&quot;:&quot;{\&quot;lat\&quot;: 30.8079, \&quot;lng\&quot;: 108.40873}&quot;,&quot;consignee_detailed_address&quot;:&quot;5-1&quot;,&quot;consignee_status&quot;:&quot;正常&quot;,&quot;sex&quot;:null,&quot;postalcode&quot;:null,&quot;consignee_location&quot;:null,&quot;create_time&quot;:&quot;2018-09-03T02:57:46.000+0000&quot;,&quot;update_time&quot;:&quot;2018-09-03T02:57:46.000+0000&quot;},{&quot;id&quot;:18,&quot;user_id&quot;:1,&quot;name&quot;:&quot;张三&quot;,&quot;cellphone&quot;:&quot;18523146311&quot;,&quot;province&quot;:&quot;重庆&quot;,&quot;city&quot;:&quot;重庆&quot;,&quot;area&quot;:&quot;渝北&quot;,&quot;area_location&quot;:&quot;{\&quot;lat\&quot;: 30.8079, \&quot;lng\&quot;: 108.40873}&quot;,&quot;consignee_detailed_address&quot;:&quot;5-1&quot;,&quot;consignee_status&quot;:&quot;正常&quot;,&quot;sex&quot;:null,&quot;postalcode&quot;:null,&quot;consignee_location&quot;:null,&quot;create_time&quot;:&quot;2018-09-03T02:57:47.000+0000&quot;,&quot;update_time&quot;:&quot;2018-09-03T02:57:47.000+0000&quot;},{&quot;id&quot;:19,&quot;user_id&quot;:1,&quot;name&quot;:&quot;张三&quot;,&quot;cellphone&quot;:&quot;18523146311&quot;,&quot;province&quot;:&quot;重庆&quot;,&quot;city&quot;:&quot;重庆&quot;,&quot;area&quot;:&quot;渝北&quot;,&quot;area_location&quot;:&quot;{\&quot;lat\&quot;: 30.8079, \&quot;lng\&quot;: 108.40873}&quot;,&quot;consignee_detailed_address&quot;:&quot;5-1&quot;,&quot;consignee_status&quot;:&quot;正常&quot;,&quot;sex&quot;:null,&quot;postalcode&quot;:null,&quot;consignee_location&quot;:null,&quot;create_time&quot;:&quot;2018-09-03T02:57:47.000+0000&quot;,&quot;update_time&quot;:&quot;2018-09-03T02:57:47.000+0000&quot;},{&quot;id&quot;:20,&quot;user_id&quot;:1,&quot;name&quot;:&quot;张三&quot;,&quot;cellphone&quot;:&quot;18523146311&quot;,&quot;province&quot;:&quot;重庆&quot;,&quot;city&quot;:&quot;重庆&quot;,&quot;area&quot;:&quot;渝北&quot;,&quot;area_location&quot;:&quot;{\&quot;lat\&quot;: 30.8079, \&quot;lng\&quot;: 108.40873}&quot;,&quot;consignee_detailed_address&quot;:&quot;5-1&quot;,&quot;consignee_status&quot;:&quot;正常&quot;,&quot;sex&quot;:null,&quot;postalcode&quot;:null,&quot;consignee_location&quot;:null,&quot;create_time&quot;:&quot;2018-09-03T02:57:48.000+0000&quot;,&quot;update_time&quot;:&quot;2018-09-03T02:57:48.000+0000&quot;},{&quot;id&quot;:21,&quot;user_id&quot;:1,&quot;name&quot;:&quot;张三&quot;,&quot;cellphone&quot;:&quot;18523146311&quot;,&quot;province&quot;:&quot;重庆&quot;,&quot;city&quot;:&quot;重庆&quot;,&quot;area&quot;:&quot;渝北&quot;,&quot;area_location&quot;:&quot;{\&quot;lat\&quot;: 30.8079, \&quot;lng\&quot;: 108.40873}&quot;,&quot;consignee_detailed_address&quot;:&quot;5-1&quot;,&quot;consignee_status&quot;:&quot;正常&quot;,&quot;sex&quot;:null,&quot;postalcode&quot;:null,&quot;consignee_location&quot;:null,&quot;create_time&quot;:&quot;2018-09-03T02:57:49.000+0000&quot;,&quot;update_time&quot;:&quot;2018-09-03T02:57:49.000+0000&quot;},{&quot;id&quot;:22,&quot;user_id&quot;:1,&quot;name&quot;:&quot;逍遥&quot;,&quot;cellphone&quot;:&quot;15223650314&quot;,&quot;province&quot;:&quot;重庆&quot;,&quot;city&quot;:&quot;重庆&quot;,&quot;area&quot;:&quot;沙坪坝&quot;,&quot;area_location&quot;:&quot;{\&quot;lat\&quot;: 30.8079, \&quot;lng\&quot;: 108.40873}&quot;,&quot;consignee_detailed_address&quot;:&quot;8-8&quot;,&quot;consignee_status&quot;:&quot;正常&quot;,&quot;sex&quot;:null,&quot;postalcode&quot;:null,&quot;consignee_location&quot;:null,&quot;create_time&quot;:&quot;2018-09-03T02:58:48.000+0000&quot;,&quot;update_time&quot;:&quot;2018-09-03T02:58:48.000+0000&quot;},{&quot;id&quot;:24,&quot;user_id&quot;:1,&quot;name&quot;:&quot;逍遥&quot;,&quot;cellphone&quot;:&quot;15223650314&quot;,&quot;province&quot;:&quot;重庆&quot;,&quot;city&quot;:&quot;重庆&quot;,&quot;area&quot;:&quot;沙坪坝&quot;,&quot;area_location&quot;:&quot;{\&quot;lat\&quot;: 30.8079, \&quot;lng\&quot;: 108.40873}&quot;,&quot;consignee_detailed_address&quot;:&quot;8-8&quot;,&quot;consignee_status&quot;:&quot;正常&quot;,&quot;sex&quot;:null,&quot;postalcode&quot;:null,&quot;consignee_location&quot;:null,&quot;create_time&quot;:&quot;2018-09-03T03:26:21.000+0000&quot;,&quot;update_time&quot;:&quot;2018-09-03T03:26:21.000+0000&quot;},{&quot;id&quot;:25,&quot;user_id&quot;:1,&quot;name&quot;:&quot;逍遥&quot;,&quot;cellphone&quot;:&quot;15223650314&quot;,&quot;province&quot;:&quot;重庆&quot;,&quot;city&quot;:&quot;重庆&quot;,&quot;area&quot;:&quot;沙坪坝&quot;,&quot;area_location&quot;:&quot;{\&quot;lat\&quot;: 30.8079, \&quot;lng\&quot;: 108.40873}&quot;,&quot;consignee_detailed_address&quot;:&quot;8-8&quot;,&quot;consignee_status&quot;:&quot;正常&quot;,&quot;sex&quot;:null,&quot;postalcode&quot;:null,&quot;consignee_location&quot;:null,&quot;create_time&quot;:&quot;2018-09-03T03:28:06.000+0000&quot;,&quot;update_time&quot;:&quot;2018-09-03T03:28:06.000+0000&quot;},{&quot;id&quot;:26,&quot;user_id&quot;:1,&quot;name&quot;:&quot;逍遥&quot;,&quot;cellphone&quot;:&quot;15223650314&quot;,&quot;province&quot;:&quot;重庆&quot;,&quot;city&quot;:&quot;重庆&quot;,&quot;area&quot;:&quot;沙坪坝&quot;,&quot;area_location&quot;:&quot;{\&quot;lat\&quot;: 30.8079, \&quot;lng\&quot;: 108.40873}&quot;,&quot;consignee_detailed_address&quot;:&quot;8-8&quot;,&quot;consignee_status&quot;:&quot;正常&quot;,&quot;sex&quot;:null,&quot;postalcode&quot;:null,&quot;consignee_location&quot;:null,&quot;create_time&quot;:&quot;2018-09-03T03:28:35.000+0000&quot;,&quot;update_time&quot;:&quot;2018-09-03T03:28:35.000+0000&quot;},{&quot;id&quot;:27,&quot;user_id&quot;:1,&quot;name&quot;:&quot;逍遥&quot;,&quot;cellphone&quot;:&quot;15223650314&quot;,&quot;province&quot;:&quot;重庆&quot;,&quot;city&quot;:&quot;重庆&quot;,&quot;area&quot;:&quot;沙坪坝&quot;,&quot;area_location&quot;:&quot;{\&quot;lat\&quot;: 30.8079, \&quot;lng\&quot;: 108.40873}&quot;,&quot;consignee_detailed_address&quot;:&quot;8-8&quot;,&quot;consignee_status&quot;:&quot;正常&quot;,&quot;sex&quot;:null,&quot;postalcode&quot;:null,&quot;consignee_location&quot;:null,&quot;create_time&quot;:&quot;2018-09-03T03:29:14.000+0000&quot;,&quot;update_time&quot;:&quot;2018-09-03T03:29:14.000+0000&quot;},{&quot;id&quot;:28,&quot;user_id&quot;:1,&quot;name&quot;:&quot;逍遥&quot;,&quot;cellphone&quot;:&quot;15223650314&quot;,&quot;province&quot;:&quot;重庆&quot;,&quot;city&quot;:&quot;重庆&quot;,&quot;area&quot;:&quot;沙坪坝&quot;,&quot;area_location&quot;:&quot;{\&quot;lat\&quot;: 30.8079, \&quot;lng\&quot;: 108.40873}&quot;,&quot;consignee_detailed_address&quot;:&quot;8-8&quot;,&quot;consignee_status&quot;:&quot;正常&quot;,&quot;sex&quot;:null,&quot;postalcode&quot;:null,&quot;consignee_location&quot;:null,&quot;create_time&quot;:&quot;2018-09-03T03:30:28.000+0000&quot;,&quot;update_time&quot;:&quot;2018-09-03T03:30:28.000+0000&quot;},{&quot;id&quot;:29,&quot;user_id&quot;:1,&quot;name&quot;:&quot;逍遥&quot;,&quot;cellphone&quot;:&quot;15223650314&quot;,&quot;province&quot;:&quot;重庆&quot;,&quot;city&quot;:&quot;重庆&quot;,&quot;area&quot;:&quot;沙坪坝&quot;,&quot;area_location&quot;:&quot;{\&quot;lat\&quot;: 30.8079, \&quot;lng\&quot;: 108.40873}&quot;,&quot;consignee_detailed_address&quot;:&quot;8-8&quot;,&quot;consignee_status&quot;:&quot;正常&quot;,&quot;sex&quot;:null,&quot;postalcode&quot;:null,&quot;consignee_location&quot;:null,&quot;create_time&quot;:&quot;2018-09-03T03:34:35.000+0000&quot;,&quot;update_time&quot;:&quot;2018-09-03T03:34:35.000+0000&quot;},{&quot;id&quot;:30,&quot;user_id&quot;:1,&quot;name&quot;:&quot;逍遥&quot;,&quot;cellphone&quot;:&quot;15223650314&quot;,&quot;province&quot;:&quot;重庆&quot;,&quot;city&quot;:&quot;重庆&quot;,&quot;area&quot;:&quot;沙坪坝&quot;,&quot;area_location&quot;:&quot;{\&quot;lat\&quot;: 30.8079, \&quot;lng\&quot;: 108.40873}&quot;,&quot;consignee_detailed_address&quot;:&quot;8-8&quot;,&quot;consignee_status&quot;:&quot;正常&quot;,&quot;sex&quot;:null,&quot;postalcode&quot;:null,&quot;consignee_location&quot;:null,&quot;create_time&quot;:&quot;2018-09-03T03:39:17.000+0000&quot;,&quot;update_time&quot;:&quot;2018-09-03T03:39:17.000+0000&quot;},{&quot;id&quot;:31,&quot;user_id&quot;:1,&quot;name&quot;:&quot;逍遥&quot;,&quot;cellphone&quot;:&quot;15223650314&quot;,&quot;province&quot;:&quot;重庆&quot;,&quot;city&quot;:&quot;重庆&quot;,&quot;area&quot;:&quot;沙坪坝&quot;,&quot;area_location&quot;:&quot;{\&quot;lat\&quot;: 30.8079, \&quot;lng\&quot;: 108.40873}&quot;,&quot;consignee_detailed_address&quot;:&quot;8-8&quot;,&quot;consignee_status&quot;:&quot;正常&quot;,&quot;sex&quot;:null,&quot;postalcode&quot;:null,&quot;consignee_location&quot;:null,&quot;create_time&quot;:&quot;2018-09-03T03:39:49.000+0000&quot;,&quot;update_time&quot;:&quot;2018-09-03T03:39:49.000+0000&quot;}],&quot;count&quot;:35}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.0.13:30000/ssc-user/consignee/page?page=1&amp;limit=20&amp;user_id=1</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="11" ct="0" ts="1536809510541" s="true" lb="收货人-获得默认收货人" rc="200" rm="" tn="收货人-根据ID更新数据 1-1" dt="text" de="UTF-8" by="190" sby="169" sc="1" ec="0" ng="1" na="1" hn="SC-201803070953">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Thu, 13 Sep 2018 03:31:48 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: 192.168.0.13:30000
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_25)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;msg&quot;:&quot;成功&quot;,&quot;flag&quot;:true,&quot;data&quot;:null}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.0.13:30000/ssc-user/consignee/getConsigneeDefault?user_id=1</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1536809510554" s="true" lb="收货人-获得收货人" rc="200" rm="" tn="收货人-根据ID更新数据 1-1" dt="text" de="UTF-8" by="570" sby="168" sc="1" ec="0" ng="1" na="1" hn="SC-201803070953">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Thu, 13 Sep 2018 03:31:48 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: 192.168.0.13:30000
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_25)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;msg&quot;:&quot;成功&quot;,&quot;flag&quot;:true,&quot;data&quot;:{&quot;id&quot;:22,&quot;user_id&quot;:1,&quot;name&quot;:&quot;逍遥&quot;,&quot;cellphone&quot;:&quot;15223650314&quot;,&quot;province&quot;:&quot;重庆&quot;,&quot;city&quot;:&quot;重庆&quot;,&quot;area&quot;:&quot;沙坪坝&quot;,&quot;area_location&quot;:&quot;{\&quot;lat\&quot;: 30.8079, \&quot;lng\&quot;: 108.40873}&quot;,&quot;consignee_detailed_address&quot;:&quot;8-8&quot;,&quot;consignee_status&quot;:&quot;正常&quot;,&quot;sex&quot;:null,&quot;postalcode&quot;:null,&quot;consignee_location&quot;:null,&quot;create_time&quot;:&quot;2018-09-03T02:58:48.000+0000&quot;,&quot;update_time&quot;:&quot;2018-09-03T02:58:48.000+0000&quot;}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.0.13:30000/ssc-user/consignee/getConsignee?consignee_id=22</java.net.URL>
+</httpSample>
+<httpSample t="27" it="0" lt="27" ct="0" ts="1536809510565" s="true" lb="收货人-设置默认" rc="200" rm="" tn="收货人-根据ID更新数据 1-1" dt="text" de="UTF-8" by="190" sby="234" sc="1" ec="0" ng="1" na="1" hn="SC-201803070953">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Thu, 13 Sep 2018 03:31:48 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 15
+Host: 192.168.0.13:30000
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_25)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;msg&quot;:&quot;成功&quot;,&quot;flag&quot;:true,&quot;data&quot;:null}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String">id=23&amp;user_id=1</queryString>
+  <java.net.URL>http://192.168.0.13:30000/ssc-user/consignee/setDefault</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="12" ct="0" ts="1536809510594" s="true" lb="收货人-根据ID更新数据" rc="200" rm="" tn="收货人-根据ID更新数据 1-1" dt="text" de="UTF-8" by="190" sby="229" sc="1" ec="0" ng="1" na="1" hn="SC-201803070953">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Thu, 13 Sep 2018 03:31:48 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 21
+Host: 192.168.0.13:30000
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_25)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;msg&quot;:&quot;成功&quot;,&quot;flag&quot;:true,&quot;data&quot;:null}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String">id=23&amp;name= 鏉庨�嶉仴</queryString>
+  <java.net.URL>http://192.168.0.13:30000/ssc-user/consignee</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="23" ct="0" ts="1536809510607" s="true" lb="收货人-删除-假" rc="200" rm="" tn="收货人-根据ID更新数据 1-1" dt="text" de="UTF-8" by="190" sby="177" sc="1" ec="0" ng="1" na="1" hn="SC-201803070953">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Thu, 13 Sep 2018 03:31:48 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 0
+Host: 192.168.0.13:30000
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_25)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;msg&quot;:&quot;成功&quot;,&quot;flag&quot;:true,&quot;data&quot;:null}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.0.13:30000/ssc-user/consignee?id=23&amp;user_id=1</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="12" ct="3" ts="1536809510639" s="true" lb="R100-用户是否存在" rc="200" rm="" tn="共享服务中心-用户中心-R100 2-1" dt="text" de="UTF-8" by="190" sby="216" sc="1" ec="0" ng="1" na="1" hn="SC-201803070953">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Thu, 13 Sep 2018 03:31:48 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: 192.168.0.13:30000
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_25)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;msg&quot;:&quot;成功&quot;,&quot;flag&quot;:true,&quot;data&quot;:true}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.0.13:30000/ssc-user/r100/isUserExist?role=好货同城_admin&amp;cellphone=18523146363</java.net.URL>
+</httpSample>
+<httpSample t="47" it="0" lt="47" ct="0" ts="1536809510654" s="true" lb="R100-插入用户数据" rc="200" rm="" tn="共享服务中心-用户中心-R100 2-1" dt="text" de="UTF-8" by="445" sby="296" sc="1" ec="0" ng="1" na="1" hn="SC-201803070953">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Thu, 13 Sep 2018 03:31:48 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 85
+Host: 192.168.0.13:30000
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_25)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:500,&quot;msg&quot;:&quot;请求错误&quot;,&quot;flag&quot;:false,&quot;data&quot;:&quot;org.springframework.dao.DataIntegrityViolationException: PreparedStatementCallback; ]; Column &apos;password&apos; cannot be null; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column &apos;password&apos; cannot be null&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">role=%E5%A5%BD%E8%B4%A7%E5%90%8C%E5%9F%8E_admin&amp;cellphone=18523146363&amp;password=123456</queryString>
+  <java.net.URL>http://192.168.0.13:30000/ssc-user/r100/insert</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1536809510702" s="true" lb="R100-登录" rc="200" rm="" tn="共享服务中心-用户中心-R100 2-1" dt="text" de="UTF-8" by="276" sby="295" sc="1" ec="0" ng="1" na="1" hn="SC-201803070953">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Thu, 13 Sep 2018 03:31:48 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 85
+Host: 192.168.0.13:30000
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_25)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;msg&quot;:&quot;成功&quot;,&quot;flag&quot;:true,&quot;data&quot;:{&quot;user_id&quot;:2,&quot;role&quot;:&quot;好货同城_admin&quot;,&quot;cellphone&quot;:&quot;18523146363&quot;,&quot;user_status&quot;:&quot;正常&quot;}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">role=%E5%A5%BD%E8%B4%A7%E5%90%8C%E5%9F%8E_admin&amp;cellphone=18523146363&amp;password=123456</queryString>
+  <java.net.URL>http://192.168.0.13:30000/ssc-user/r100/login</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1536809510714" s="true" lb="R100-获得用户信息" rc="200" rm="" tn="共享服务中心-用户中心-R100 2-1" dt="text" de="UTF-8" by="276" sby="152" sc="1" ec="0" ng="1" na="1" hn="SC-201803070953">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Thu, 13 Sep 2018 03:31:48 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: 192.168.0.13:30000
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_25)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;msg&quot;:&quot;成功&quot;,&quot;flag&quot;:true,&quot;data&quot;:{&quot;user_id&quot;:2,&quot;role&quot;:&quot;好货同城_admin&quot;,&quot;cellphone&quot;:&quot;18523146363&quot;,&quot;user_status&quot;:&quot;正常&quot;}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.0.13:30000/ssc-user/r100/getUser?user_id=2</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="12" ct="3" ts="1536809510731" s="true" lb="R200-用户是否存在" rc="200" rm="" tn="共享服务中心-用户中心-R200 3-1" dt="text" de="UTF-8" by="191" sby="229" sc="1" ec="0" ng="1" na="1" hn="SC-201803070953">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Thu, 13 Sep 2018 03:31:48 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: 192.168.0.13:30000
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_25)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;msg&quot;:&quot;成功&quot;,&quot;flag&quot;:true,&quot;data&quot;:false}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.0.13:30000/ssc-user/r200/isUserExist?role=好货同城_商户&amp;cellphone=18523146361</java.net.URL>
+</httpSample>
+<httpSample t="35" it="0" lt="34" ct="0" ts="1536809510745" s="true" lb="R200-插入用户数据" rc="200" rm="" tn="共享服务中心-用户中心-R200 3-1" dt="text" de="UTF-8" by="410" sby="343" sc="1" ec="0" ng="1" na="1" hn="SC-201803070953">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Thu, 13 Sep 2018 03:31:48 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 131
+Host: 192.168.0.13:30000
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_25)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:500,&quot;msg&quot;:&quot;请求错误&quot;,&quot;flag&quot;:false,&quot;data&quot;:&quot;org.springframework.dao.DataIntegrityViolationException: PreparedStatementCallback; ]; Data truncated for column &apos;role&apos; at row 1; nested exception is java.sql.SQLException: Data truncated for column &apos;role&apos; at row 1&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">role=%E5%A5%BD%E8%B4%A7%E5%90%8C%E5%9F%8E_admin&amp;cellphone=18523146361&amp;password=123456&amp;nickname=1&amp;register_source=%E5%AE%98%E7%BD%91</queryString>
+  <java.net.URL>http://192.168.0.13:30000/ssc-user/r200/insert</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="11" ct="0" ts="1536809510782" s="true" lb="R200-登录" rc="200" rm="" tn="共享服务中心-用户中心-R200 3-1" dt="text" de="UTF-8" by="320" sby="308" sc="1" ec="0" ng="1" na="1" hn="SC-201803070953">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Thu, 13 Sep 2018 03:31:48 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 98
+Host: 192.168.0.13:30000
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_25)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;msg&quot;:&quot;成功&quot;,&quot;flag&quot;:true,&quot;data&quot;:{&quot;user_id&quot;:18,&quot;role&quot;:&quot;好货同城_商户&quot;,&quot;cellphone&quot;:&quot;18523146361&quot;,&quot;nickname&quot;:&quot;1&quot;,&quot;sex&quot;:null,&quot;head_img&quot;:null,&quot;user_status&quot;:&quot;正常&quot;}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">role=%E5%A5%BD%E8%B4%A7%E5%90%8C%E5%9F%8E_%E5%95%86%E6%88%B7&amp;cellphone=18523146361&amp;password=123456</queryString>
+  <java.net.URL>http://192.168.0.13:30000/ssc-user/r200/login</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="0" ts="1536809510796" s="true" lb="R200-获得用户信息" rc="200" rm="" tn="共享服务中心-用户中心-R200 3-1" dt="text" de="UTF-8" by="320" sby="153" sc="1" ec="0" ng="1" na="1" hn="SC-201803070953">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Thu, 13 Sep 2018 03:31:48 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: 192.168.0.13:30000
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_25)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:200,&quot;msg&quot;:&quot;成功&quot;,&quot;flag&quot;:true,&quot;data&quot;:{&quot;user_id&quot;:18,&quot;role&quot;:&quot;好货同城_商户&quot;,&quot;cellphone&quot;:&quot;18523146361&quot;,&quot;nickname&quot;:&quot;1&quot;,&quot;sex&quot;:null,&quot;head_img&quot;:null,&quot;user_status&quot;:&quot;正常&quot;}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.0.13:30000/ssc-user/r200/getUser?user_id=18</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="2" ts="1536809510808" s="true" lb="R300-插入用户数据" rc="200" rm="" tn="共享服务中心-用户中心-R300 4-1" dt="text" de="UTF-8" by="293" sby="316" sc="1" ec="0" ng="1" na="1" hn="SC-201803070953">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Thu, 13 Sep 2018 03:31:48 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: 192.168.0.13:30000
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_25)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:500,&quot;msg&quot;:&quot;请求错误&quot;,&quot;flag&quot;:false,&quot;data&quot;:&quot;org.springframework.web.HttpRequestMethodNotSupportedException: Request method &apos;GET&apos; not supported&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.0.13:30000/ssc-user/r300/insert?role=好货同城_商户用户&amp;seller_id=18&amp;open_id=1&amp;nickname=1&amp;register_source=微信小程序</java.net.URL>
+</httpSample>
+
+</testResults>
